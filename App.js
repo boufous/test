@@ -42,7 +42,7 @@ export default class App extends Component<Props> {
             <Text style={{fontSize: 14}}> SNAP </Text>
         </TouchableOpacity>
         </View>
-      </View>
+      </View> 
     );
   }
 
