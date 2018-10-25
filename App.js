@@ -32,7 +32,7 @@ export default class App extends Component<Props> {
             permissionDialogMessage={'We need your permission to use your camera phone'}
             onGoogleVisionBarcodesDetected={({ barcodes }) => {
               console.log(barcodes)
-            }}
+            }} 
         />
         <View style={{flex: 0, flexDirection: 'row', justifyContent: 'center',}}>
         <TouchableOpacity
